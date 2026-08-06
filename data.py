@@ -11,3 +11,6 @@ print(df["Product"])
 print(df[["Product","price"]])
 print(df.loc[2])
 print(df.iloc[1])
+
+df["total_value"] = df["price"] * df["stock" ]
+print(df)
